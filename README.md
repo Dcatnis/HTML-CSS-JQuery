@@ -1,2 +1,2 @@
-# HTML-CSS-JQuery
-Accordion main page
+# faq-accordion-card-main
+ HTML CSS JQuery

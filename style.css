@@ -1,0 +1,255 @@
+body{
+    font-size:12px ;
+    font-family: 'Kumbh Sans', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding: 130px 0px 130px 0px;
+  position: relative;
+  box-sizing: border-box;
+  
+ 
+}
+.card{
+ 
+    display: flex;
+    max-width: 920px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    
+   
+    
+    
+
+}
+.design{
+    background-image: url(bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -579px -290px;
+    padding-right: 80px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    max-width: 390px;
+    width: 100%;
+    height: 400px;
+   
+    
+}
+.wooman{
+  position: absolute;
+  left: -90px;
+  top:80px;
+  z-index:1;
+
+    
+}
+.box{
+    position: absolute;
+    top:212px;
+    left:-127px;
+    z-index: 2;
+    
+}
+
+
+.faq{
+    padding-top: 65px;
+    
+}
+h1{
+    font-size: 27px;
+}
+.list{
+    margin-top: 10px;
+    border:none;
+    background-color: white;
+    border-bottom: 1px solid rgb(233,233,233);
+    font-size: 15px;
+    color: rgb(89,88,94);
+    font-weight: 400;
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+   
+}
+.result{
+display: none;
+max-width: 320px;
+font-weight: 400;
+color:rgb(144,144,146);
+font-size: 13px;
+}
+
+.arrow{
+    width: 12px;
+    height: 10px;
+    margin-left: 70px;
+    
+}
+.arrowup{
+    transform:rotate(180deg)
+}
+
+.list:hover{
+    color: rgb(235,179,162);
+    cursor: pointer;
+}
+.clicked{
+    color: black;
+    font-weight: 700;
+    border: none;
+}
+.mobilebg{
+    display: none;
+}
+.mobiledesk{
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .card{
+ 
+        display:block;
+        max-width:700px;
+        width: 100%;
+        text-align: center;
+        
+}
+.design{
+    background-image: none;
+    padding-right:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    overflow: visible;   
+}
+.wooman{
+    position: absolute;
+    left: 80px;
+    top:40px;
+    z-index:1;
+}
+.box{
+    position: absolute;
+    top:168px;
+    left:50px;
+    z-index: 2;
+    
+}
+.container{
+    
+  padding: 130px 20px 130px 20px;
+  
+}
+.faq{
+    padding: 65px 20px ;
+}
+.list{
+    
+    font-size: 20px;
+    
+   
+}
+.list:hover{
+    color:black;
+
+}
+.result{
+    
+    max-width: 700px;
+    font-weight: 400;
+    text-align: start;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+   .design{
+       display: none;
+   }
+   .box{
+       display: none;
+   }
+    .mobiledesk{
+        display: block;
+        position: absolute;
+        top: 0px;
+        left:60px;
+        
+    }
+    
+    .faq{
+        padding-top: 200px;
+        
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    
+    .card{
+     max-width: 375px;
+     width: 100%;
+        display:block;
+       padding: 0px 23px 40px 23px;
+        position: relative;
+}
+.design{
+    display: none;
+}
+.box{
+    display: none;
+}
+.container{
+    max-width: 375px;
+    width: 100%;
+  padding: 130px 24px 50px 24px;
+ 
+}
+.mobilebg{
+    display: block;
+    position: absolute;
+    left: 37px;
+    top:3px;
+    
+}
+.mobiledesk{
+    display: block;
+    position: absolute;
+    top: -106px;
+    left:9px;
+    
+}
+.faq{
+    margin-top: -66px;
+     
+}
+h1{
+    text-align: center;
+}
+.list{
+   text-align: start;
+    font-size: 12px;  
+}
+.arrow{
+   
+    margin-left: 30px;
+    
+}
+.list:hover{
+    color:black;
+
+}
+}
+
+
+
